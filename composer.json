@@ -1,0 +1,20 @@
+{
+    "name": "esoft/ampcf7",
+    "description": "Contact Form 7 With amp Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [{
+        "name": "eSoft Arena Limited",
+        "email": "kaderuap@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ESOFT\\AMPCF7\\INCLUDES\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
